@@ -1,0 +1,134 @@
+/* You can add custom CSS and extend Boostrap styles in this file.  Remember, Bootstrap is just CSS at the end of the day! */
+body {background-color: #393E41;}
+
+ .hero {
+  width:100%;
+  background-image:linear-gradient(
+    rgba(0,0,0,.4), 
+    rgba(0,0,0,.4)),
+    url('https://picsum.photos/1800');
+  background-color:#FFFFFF; 
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size:cover;
+  background-attachment: fixed;
+  min-height: 400px; 
+  padding: 20%;
+  text-align: center;
+}
+h1 {
+  color:#FFFFFF;
+  text-shadow:1px 1px #000000;
+  margin: 0;
+}
+
+p {
+  color:#FFFFFF;
+  text-shadow: 1px 1px #000000;
+  margin: 0;
+}
+
+#headshot {
+  display: block;
+  width: 20vw;
+  height: auto;
+  margin: auto; 
+  border-radius: 50%;
+  padding: 0;
+  border: 10px solid rgba(0,0,0,0.2);
+}
+
+h2 {
+  color: #E1E5F2;
+  padding: 5%;
+}
+
+.carousel-inner img {
+  object-fit: cover;
+  object-position: center;
+/*   height: 60vh; */
+  overflow: hidden;
+}
+
+.carousel-item:after {
+  content:"";
+  position:absolute;
+  top:0;
+  bottom:0;
+  left:0;
+  right:0;
+  background: rgba(0,0,0,0.4);
+}
+
+.carousel-caption {
+  z-index: 1;
+}
+
+section {
+  padding: 30px 20px;
+}
+
+.column {
+  float: left;
+  width: 50%;
+  padding: 20px;
+/*   height: 300px; */
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+@media screen and (max-width: 500px) {
+  .column {
+    width: 100%;
+  }
+}
+
+* {
+  box-sizing: border-box;
+}
+
+
+.column-2 {
+  float: left;
+  width: 33.33%;
+} 
+
+@media screen and (max-width: 500px) {
+  .column-2 {
+    width: 100%;
+  }
+}
+ 
+.btn {
+  background-color: #393E41; 
+  border: none; 
+  color: white; 
+  padding: none;
+  font-size: 14px; 
+  cursor: pointer; 
+}
+
+.btn:hover {
+  background-color: #393E41;
+} 
+
+.column-3 {
+  float: center;
+/*   width: 25%; */
+  padding: 10px;
+/*   height: 300px; */
+}
+@media screen and (max-width: 500px) {
+  .column-3 {
+    width: 100%;
+  }
+}
+
+p2 {
+  color: white;
+
+}
